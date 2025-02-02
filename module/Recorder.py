@@ -22,12 +22,12 @@ class Recorder:
         self.tk.bind("<KeyPress>",self.key_down)
         self.tk.bind("<KeyRelease>",self.key_up)
 
-        self.tk.bind("<Button-1",self.button_1)#마우스 왼쪽
-        self.tk.bind("<Button-2",self.button_2)#마우스 중간
-        self.tk.bind("<Button-3",self.button_3)#마우스 오른쪽
-        self.tk.bind("<Button-4",self.button_4)#휠 업
-        self.tk.bind("<Button-5",self.button_5)#휠 다운
-        
+        self.tk.bind("<Button-1>",self.button_1)#마우스 왼쪽
+        self.tk.bind("<Button-2>",self.button_2)#마우스 중간
+        self.tk.bind("<Button-3>",self.button_3)#마우스 오른쪽
+        self.tk.bind("<Button-4>",self.button_4)#휠 업
+        self.tk.bind("<Button-5>",self.button_5)#휠 다운
+
         
 
 
